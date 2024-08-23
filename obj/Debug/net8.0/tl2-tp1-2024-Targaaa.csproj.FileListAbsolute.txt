@@ -1,0 +1,14 @@
+D:\EStudio\6to modulo\Taller 2\Tp1\tl2-tp1-2024-Targaaa\bin\Debug\net8.0\tl2-tp1-2024-Targaaa.exe
+D:\EStudio\6to modulo\Taller 2\Tp1\tl2-tp1-2024-Targaaa\bin\Debug\net8.0\tl2-tp1-2024-Targaaa.deps.json
+D:\EStudio\6to modulo\Taller 2\Tp1\tl2-tp1-2024-Targaaa\bin\Debug\net8.0\tl2-tp1-2024-Targaaa.runtimeconfig.json
+D:\EStudio\6to modulo\Taller 2\Tp1\tl2-tp1-2024-Targaaa\bin\Debug\net8.0\tl2-tp1-2024-Targaaa.dll
+D:\EStudio\6to modulo\Taller 2\Tp1\tl2-tp1-2024-Targaaa\bin\Debug\net8.0\tl2-tp1-2024-Targaaa.pdb
+D:\EStudio\6to modulo\Taller 2\Tp1\tl2-tp1-2024-Targaaa\obj\Debug\net8.0\tl2-tp1-2024-Targaaa.GeneratedMSBuildEditorConfig.editorconfig
+D:\EStudio\6to modulo\Taller 2\Tp1\tl2-tp1-2024-Targaaa\obj\Debug\net8.0\tl2-tp1-2024-Targaaa.AssemblyInfoInputs.cache
+D:\EStudio\6to modulo\Taller 2\Tp1\tl2-tp1-2024-Targaaa\obj\Debug\net8.0\tl2-tp1-2024-Targaaa.AssemblyInfo.cs
+D:\EStudio\6to modulo\Taller 2\Tp1\tl2-tp1-2024-Targaaa\obj\Debug\net8.0\tl2-tp1-2024-Targaaa.csproj.CoreCompileInputs.cache
+D:\EStudio\6to modulo\Taller 2\Tp1\tl2-tp1-2024-Targaaa\obj\Debug\net8.0\tl2-tp1-2024-Targaaa.dll
+D:\EStudio\6to modulo\Taller 2\Tp1\tl2-tp1-2024-Targaaa\obj\Debug\net8.0\refint\tl2-tp1-2024-Targaaa.dll
+D:\EStudio\6to modulo\Taller 2\Tp1\tl2-tp1-2024-Targaaa\obj\Debug\net8.0\tl2-tp1-2024-Targaaa.pdb
+D:\EStudio\6to modulo\Taller 2\Tp1\tl2-tp1-2024-Targaaa\obj\Debug\net8.0\tl2-tp1-2024-Targaaa.genruntimeconfig.cache
+D:\EStudio\6to modulo\Taller 2\Tp1\tl2-tp1-2024-Targaaa\obj\Debug\net8.0\ref\tl2-tp1-2024-Targaaa.dll
