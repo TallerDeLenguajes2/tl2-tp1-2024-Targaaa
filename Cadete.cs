@@ -12,6 +12,6 @@ public class Cadete
     //no agregar metodos sin necesidad, a menos que sean claros.
     public Cadete(Pedido pedido)
     {
-
+        
     }
 }

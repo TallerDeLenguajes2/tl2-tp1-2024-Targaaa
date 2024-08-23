@@ -5,7 +5,7 @@ public class Cadeteria
     private string nombre;
     public long Telefono { get => telefono; set => telefono = value; }
     public string Nombre { get => nombre; set => nombre = value; }
-    public Cadeteriaa()
+    public Cadeteria()
     {
         ListadoCadetes = new List<Cadete>();
     }

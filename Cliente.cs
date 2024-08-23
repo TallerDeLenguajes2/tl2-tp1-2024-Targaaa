@@ -8,5 +8,9 @@ public class Cliente
     public string Nombre { get => nombre; set => nombre = value; }
     public string Direccion { get => direccion; set => direccion = value; }
     public string Telofono { get => telofono; set => telofono = value; }
-    public string DatosDireccion1 { get => DatosDireccion; set => DatosDireccion = value; }
+    public string DatosDireccion { get => datosDireccion; set => datosDireccion = value; }
+    public Cliente()
+    {
+        
+    }
 }
