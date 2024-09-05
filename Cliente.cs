@@ -1,16 +1,21 @@
+using System.Runtime.CompilerServices;  
 public class Cliente
 {
     private string nombre;
     private string direccion;
-    private string telofono;
-    private string DatosDireccion;
+    private string telefono;
+    private string datosReferenciasDireccion;
 
-    public string Nombre { get => nombre; set => nombre = value; }
-    public string Direccion { get => direccion; set => direccion = value; }
-    public string Telofono { get => telofono; set => telofono = value; }
-    public string DatosDireccion { get => datosDireccion; set => datosDireccion = value; }
-    public Cliente()
+    public Cliente(string nombre, string direccion, string telefono, string referencias)
     {
-        
+        this.nombre = nombre;
+        this.direccion = direccion;
+        this.telefono = telefono;
+        datosReferenciasDireccion = referencias;
     }
+
+    public string Nombre { get => nombre;}
+    public string Direccion { get => direccion; }
+    public string Telefono { get => telefono;}
+    public string DatosReferenciasDireccion { get => datosReferenciasDireccion;}
 }

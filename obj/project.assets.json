@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Leandro\\.nuget\\packages\\": {}
+    "C:\\Users\\Monica Garcia\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\EStudio\\6to modulo\\Taller 2\\Tp1\\tl2-tp1-2024-Targaaa\\tl2-tp1-2024-Targaaa.csproj",
+      "projectUniqueName": "C:\\Users\\Monica Garcia\\Desktop\\taller\\tl2-tp1-2024-Targaaa\\tl2-tp1-2024-Targaaa.csproj",
       "projectName": "tl2-tp1-2024-Targaaa",
-      "projectPath": "D:\\EStudio\\6to modulo\\Taller 2\\Tp1\\tl2-tp1-2024-Targaaa\\tl2-tp1-2024-Targaaa.csproj",
-      "packagesPath": "C:\\Users\\Leandro\\.nuget\\packages\\",
-      "outputPath": "D:\\EStudio\\6to modulo\\Taller 2\\Tp1\\tl2-tp1-2024-Targaaa\\obj\\",
+      "projectPath": "C:\\Users\\Monica Garcia\\Desktop\\taller\\tl2-tp1-2024-Targaaa\\tl2-tp1-2024-Targaaa.csproj",
+      "packagesPath": "C:\\Users\\Monica Garcia\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Monica Garcia\\Desktop\\taller\\tl2-tp1-2024-Targaaa\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Leandro\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Monica Garcia\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -64,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

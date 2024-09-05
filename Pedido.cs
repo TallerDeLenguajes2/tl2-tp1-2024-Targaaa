@@ -1,21 +1,44 @@
+using System.ComponentModel;
+public enum Estados
+{
+    Preparación,
+    EnCamino,
+    Entregado
+};
 public class Pedido
 {
-    private int nro;
-    private string obs;
-    private Cliente cliente;
-    private int estado;
+    private int numero;
 
-    public int Nro { get => nro; set => nro = value; }
-    public string Obs { get => obs; set => obs = value; }
-    public Cliente Cliente { get => cliente; set => cliente = value; }
-    public int Estado { get => estado; set => estado = value; }
-    public Pedido(string nombre, string direccion, string telefono, string datosDireccion)
+    private string observacion;
+    private Cliente cliente;
+
+    private Estados estado;
+    public int Numero { get => numero;}
+    public string Observacion { get => observacion;}
+    public Estados Estado { get => estado; set => estado = value; }
+
+    public Pedido(int nro, string obs, string nombre, string direcc, string telefono, string referencias)
     {
-        this.cliente = new Cliente(){
-            Nombre =  nombre,
-            Direccion = direccion,
-            Telofono = telefono,
-            DatosDireccion =  datosDireccion
-        };
+        numero = nro;
+        observacion = obs;
+        Estado = Estados.Preparación;
+        cliente = new Cliente(nombre, direcc, telefono, referencias);
+    }
+
+
+    public void VerDireccionCliente()
+    {
+        Console.WriteLine($"Dirección de entrega: {cliente.Direccion}");
+        if(cliente.DatosReferenciasDireccion != null)
+        {
+            Console.WriteLine($"Referencias: {cliente.DatosReferenciasDireccion}");
+        }
+
+    }
+    public void VerDatosCliente()
+    {
+        Console.WriteLine($"Cliente: {cliente.Nombre}");
+        Console.WriteLine($"Direccion: {cliente.Direccion}");
+        Console.WriteLine($"Telefono: {cliente.Telefono}");
     }
 }

@@ -1,17 +1,53 @@
+using System.Reflection;
+
 public class Cadete
 {
+    private int id;
     private string nombre;
     private string direccion;
-    private string id;
-    private string telofono;
-    private List<Pedido> ListadoPedidos = new List<Pedido>();
-    public string Nombre { get => nombre; set => nombre = value; }
-    public string Direccion { get => direccion; set => direccion = value; }
-    public string Id { get => id; set => id = value; }
-    public string Telofono { get => telofono; set => telofono = value; }
-    //no agregar metodos sin necesidad, a menos que sean claros.
-    public Cadete(Pedido pedido)
+    private string telefono;
+    private List<Pedido> pedidos;
+
+
+    public Cadete(int id, string nombre, string direccion, string telefono)
     {
-        
+        this.id = id;
+        this.nombre = nombre;
+        this.direccion = direccion;
+        this.telefono = telefono;
+        pedidos = new List<Pedido>();
+    }
+
+    public int Id { get => id;}
+    public string Nombre { get => nombre; }
+    public string Direccion { get => direccion; }
+    public string Telefono { get => telefono; }
+    public List<Pedido> Pedidos { get => pedidos; set => pedidos = value; }
+   
+
+    public int CantidadDePedidosCompletados()
+    {
+        return pedidos.Count(p => p.Estado == Estados.Entregado);
+    }
+    public int JornalACobrar()
+    {
+        return 500 * CantidadDePedidosCompletados();
+
+    }
+    public Pedido DarDeBajaPedido(int numero)
+    {
+       var pedidoAQuitar = Pedidos.Where(p => p.Numero == numero).ToList();
+       Pedidos.Remove(pedidoAQuitar[0]);
+       return pedidoAQuitar[0];
+    }
+    public void RetirarPedido(int numero)
+    {
+        var pedidoAQuitar = Pedidos.Where(p => p.Numero == numero).ToList();
+        pedidoAQuitar[0].Estado = Estados.EnCamino;
+    }
+    public void CompletarPedido(int numero)
+    {
+        var pedidoAQuitar = Pedidos.Where(p => p.Numero == numero).ToList();
+        pedidoAQuitar[0].Estado = Estados.Entregado; 
     }
 }
