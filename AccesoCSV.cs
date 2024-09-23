@@ -1,4 +1,4 @@
-public class HelperDeCSV
+public class AccesoCSV : IAccesoADatos
 {
     public bool Existe(string nombreArchivo)
     {
@@ -25,7 +25,7 @@ public class HelperDeCSV
         }
         return cadetes;
     }
-    public string LeerCadeteria(string nombreArchivo)
+    public Cadeteria LeerCadeteria(string nombreArchivo)
     {
         string ruta = "csv/"+nombreArchivo;
         string informacionCadeteria;
@@ -37,7 +37,9 @@ public class HelperDeCSV
                 archivoOpen.Close();
             }
         }  
-        return informacionCadeteria;
+        string[] datos = informacionCadeteria.Split(";");
+        Cadeteria cadeteria = new Cadeteria(datos[0],datos[1]);
+        return cadeteria;
     }
     
 }
